@@ -1,0 +1,18 @@
+
+---
+Login:
+  dec: "登录"
+  parameters:
+    -
+        _sm: md5
+        _ft: json
+        mobile: 18261639003
+        password: 4ea842c8c6304f4a418835fb6665df10524df1a5
+        _tk:
+        _aid:
+        _uid:
+        _tenantid:
+        _mt: user.wapLogin
+        expect: '{
+                  "code": "500"
+                }'

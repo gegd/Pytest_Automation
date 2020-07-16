@@ -1,0 +1,42 @@
+
+---
+CompanyAdd:
+  dec: "新增本方公司,请求字段：_sm,_ft,ourCompanySaveParam,_aid,_uid,_tenantid,_domid,_mt,expect"
+  parameters:
+      - ['md5','json','{
+                "shortName":"上海赛可出行科技服务",
+                "invoiceName":"上海赛可出行科技服务",
+                "status":1,
+                "companyPostalAddressList":[],
+                "companyFundsAccountList":[],
+                "name":"上海赛可出行科技服务",
+                "remark":"autotest"
+                }','500','800012609','3701','1000','tenant.service.saveOurCompany',
+                {"defaultTip": "本方公司抬头数量已到最大限制，如需新增，请联系管理员或胖猫云ERP客服！", "code": 96012020}]
+
+
+      - ['md5','json','{
+                "shortName":"上海赛可出行科技服务1",
+                "invoiceName":"上海赛可出行科技服务1",
+                "status":1,
+                "companyPostalAddressList":[],
+                "companyFundsAccountList":[],
+                "name":"上海赛可出行科技服务1",
+                "remark":"autotest"
+                }','500','800012609','3701','1000','tenant.service.saveOurCompany',
+                {"defaultTip": "本方公司抬头数量已到最大限制，如需新增，请联系管理员或胖猫云ERP客服！", "code": 96012020}]
+
+
+
+
+CompanyQuery:
+  dec: "查询本方公司,请求字段：_sm,_ft,companyQueryParam,_aid,_uid,_tenantid,_domid,_mt,expect"
+  parameters:
+      - ['md5','json','{
+                "key":"上海赛可出行科技服务",
+                "status":"",
+                "pageNum":1,
+                "pageSize":20,
+                "total":1}',
+                '500','800012609','3701','1000','tenant.service.saveOurCompany',
+                {"defaultTip": "本方公司抬头数量已到最大限制，如需新增，请联系管理员或胖猫云ERP客服！", "code": 96012020}]

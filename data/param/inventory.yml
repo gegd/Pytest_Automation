@@ -1,0 +1,24 @@
+
+---
+Inventory:
+  dec: "批次库存查询，请求字段：_sm,_ft,param,_aid,_uid,_tenantid,_domid,_mt,expect"
+  parameters:
+    - ['md5','json','{
+                "pageNo":1,
+                "pageSize":20,
+                "supplierCompanyId":"",
+                "purchaseOrderNo":"",
+                "warehouseId":"",
+                "ourCompanyId":"",
+                "itemTitle":"",
+                "material":"",
+                "specification":"",
+                "steelMill":"",
+                "itemId":"",
+                "itemBatchNo":"",
+                "packageNo":"",
+                "queryMode":0,
+                "createStartTime":"",
+                "createEndTime":""}',
+                '500','800012609','3701','1000','saasmanager.service.inventoryPageQuery',
+                {"name":"purchaseOrderNo",}]
