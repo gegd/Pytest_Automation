@@ -29,13 +29,13 @@ class Request():
                 response = requests.get(url=url, params=new_data,verify=False)
 
         except requests.RequestException as e:
-            print('%s%s' % ('RequestException url: ', url))
-            print(e)
+            log.info('%s%s' % ('RequestException url: ', url))
+            log.info(e)
             return ()
 
         except Exception as e:
-            print('%s%s' % ('Exception url: ', url))
-            print(e)
+            log.info('%s%s' % ('Exception url: ', url))
+            log.info(e)
             return ()
 
         time_consuming = response.elapsed.microseconds/1000
@@ -77,7 +77,7 @@ class Request():
                 new_data = generate_sig(data)
                 log.info("请求参数：%s"%new_data)
                 response = requests.post(url=url, params=new_data,verify=False)
-                log.info("响应数据：%s"%response)
+                # log.info("响应数据：%s"%response)
 
         except requests.RequestException as e:
             print('%s%s' % ('RequestException url: ', url))

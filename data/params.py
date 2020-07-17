@@ -3,9 +3,9 @@ from common.common_function import login
 from common.generate_sign import generate_sig,timestamp
 
 
-def get_token():
-    token = login()
-    return token
+# def get_token():
+#     token = login()
+#     return token
 
 def get_parameter(name):
     #获取yaml数据
@@ -14,16 +14,16 @@ def get_parameter(name):
     return param
 
 
-class Company:
+class OurCompany:
 
     def get_yaml_data(self,name):
-        #解析yaml, Path:' + path_dir + '/data/param/add_company.yaml
+        #读取yaml原始测试数据
         params = get_parameter(name)
         # print('data:%s'%params)
 
         return params
 
-    def get_req_data(self,_sm,_ft,ourCompanySaveParam,_aid,_uid,_tenantid,_domid,_mt):
+    def get_req_data(self,_sm,_ft,ourCompanySaveParam,_aid,_uid,_tenantid,_domid,_mt,token):
         #拼装请求参数
         req_data = {
             '_sm':_sm,
@@ -31,7 +31,7 @@ class Company:
             '_ts': timestamp(),
             'ourCompanySaveParam':ourCompanySaveParam,
             '_aid':_aid,
-            '_tk': get_token(),
+            '_tk': token,
             '_uid':_uid,
             '_tenantid':_tenantid,
             '_domid':_domid,
@@ -48,7 +48,7 @@ class Inventory:
 
         return params
 
-    def get_req_data(self,_sm,_ft,param,_aid,_uid,_tenantid,_domid,_mt):
+    def get_req_data(self,_sm,_ft,param,_aid,_uid,_tenantid,_domid,_mt,token):
         #拼装请求参数
         req_data = {
             '_sm':_sm,
@@ -56,7 +56,7 @@ class Inventory:
             '_ts': timestamp(),
             'param':param,
             '_aid':_aid,
-            '_tk': get_token(),
+            '_tk': token,
             '_uid':_uid,
             '_tenantid':_tenantid,
             '_domid':_domid,
@@ -66,5 +66,5 @@ class Inventory:
 
 
 if __name__ == '__main__':
-    data = Company().get_yaml_data('CompanyQuery')
+    data = OurCompany().get_yaml_data('CompanyQuery')
     print('data:%s,type:%s'%(data,type(data)))

@@ -1,8 +1,12 @@
-
-from common.generate_sign import generate_sig,timestamp
+from urllib3.exceptions import InsecureRequestWarning
+import requests
 from common.Request import Request
 from conf.config import Config
 import json
+from common.generate_sign import timestamp,generate_sig
+from common import Log
+
+log = Log.MyLog()
 
 
 def login():
@@ -18,15 +22,17 @@ def login():
         '_domid':'',
         '_mt':'user.wapLogin'
     }
-    response = Request().post_request(url=config.url_test,data=data,verify=False)
-    token = response['body']['content'][0]['token']
+    data['_ts'] = timestamp()
+    new_data = generate_sig(data)
+    requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+    response = requests.post(url=config.url_test,data=new_data,verify=False)
+    token = response.json()['content'][0]['token']
     return token
 
 #本方公司接口
-class CompanyBiz():
+class OurCompanyBiz():
     def __init__(self):
         self.config = Config()
-        self._tk = login()
         self.data = {
         '_sm':'md5',
         '_ft':'json',
@@ -36,24 +42,24 @@ class CompanyBiz():
         '_domid':'1000'
     }
 
-    def add_company(self):
+    def add_ourcompany(self):
         self.data['_mt'] = 'tenant.service.saveOurCompany'
         self.data['ourCompanySaveParam'] = '{"shortName":"上海赛可出行科技服务"' \
                                            ',"invoiceName":"上海赛可出行科技服务",' \
                                            '"status":"1","companyPostalAddressList":[],' \
                                            '"companyFundsAccountList":[],"name":"上海赛可出行科技服务",' \
                                            '"remark":"autotest"}'
-        self.data['_tk'] = self._tk
+        self.data['_tk'] = login()
         Request().post_request(url=self.config.url_test,data=self.data,verify=False)
 
-    def query_company(self):
+    def query_ourcompany(self):
         self.data['_mt'] = 'tenant.service.queryOurCompanyPageList'
         self.data['companyQueryParam'] = '{"key":"上海赛可出行科技服务"' \
                                            ',' \
                                            '"status":"","pageNum":1,' \
                                            '"pageSize":20,"total":1' \
                                            '}'
-        self.data['_tk'] = self._tk
+        self.data['_tk'] = login()
         response = Request().get_request(url=self.config.url_test,data=self.data,verify=False)
         return response['body']['content'][0]['companyPageResultList']
 
@@ -62,7 +68,6 @@ class CompanyBiz():
 class ContactCompany():
     def __init__(self):
         self.config = Config()
-        self._tk = login()
         self.data = {
             '_sm':'md5',
             '_ft':'json',
@@ -71,7 +76,7 @@ class ContactCompany():
             '_tenantid':'3701',
             '_domid':'1000'
         }
-    def add_company(self):
+    def add_contactcompany(self):
         self.data['_mt'] = 'tenant.service.saveContactCompany'
         self.data['contactCompanySaveParam'] = '{"shortName":"上海赛可出行科技服务"' \
                ',"invoiceName":"上海赛可出行科技服务",' \
@@ -86,15 +91,15 @@ class ContactCompany():
                '"invoiceBankAccount":"6217001370015111111","invoicePhone":"021-88888888",' \
                '"invoiceAddress":"中国(上海)自由贸易试验区杨高北路2001号1幢4部位三层333室",' \
                '"bizRelations":"1"}'
-        self.data['_tk'] = self._tk
-        response = Request().post_request(url=self.config.url_test,data=self.data,verify=False)
+        self.data['_tk'] = login()
+        Request().post_request(url=self.config.url_test,data=self.data,verify=False)
 
-    def query_company(self):
+    def query_contactcompany(self):
         self.data['_mt'] = 'tenant.service.queryContactCompanyPageList'
         self.data['companyQueryParam'] = '{"key":"上海赛可出行科技服务有限公司"' \
                                ',"bizRelations":"","status":"","pageNum":1,"pageSize":20,"total":1}'
 
-        self.data['_tk'] = self._tk
+        self.data['_tk'] = login()
         response = Request().get_request(url=self.config.url_test,data=self.data,verify=False)
         return response['body']['content'][0]['companyPageResultList']
 
@@ -103,7 +108,6 @@ class ContactCompany():
 class PurchaseAgreement():
     def __init__(self):
         self.config = Config()
-        self._tk = login()
         self.data = {
             '_sm':'md5',
             '_ft':'json',
@@ -125,14 +129,13 @@ class PurchaseAgreement():
                '"paymentModeName":"银行转账","salesMan":"zg_182616hJ0","agreementClause":"测试"' \
                ',"remark":"测试",' \
                '"agreementBeginDate":"2020-07-09","agreementEndDate":"2020-08-12"}'
-        self.data['_tk'] = self._tk
-        response = Request().post_request(url=self.config.url_test,data=self.data,verify=False)
+        self.data['_tk'] = login()
+        Request().post_request(url=self.config.url_test,data=self.data,verify=False)
 
 
 class Goods():
     def __init__(self):
         self.config = Config()
-        self._tk = login()
         self.data = {
             '_sm':'md5',
             '_ft':'json',
@@ -148,8 +151,8 @@ class Goods():
                              '"weightUnit":"1","status":1,"taxRate":0.13,"singleWeight":10000,"mnemonicCode":"SJPL",' \
                              '"material":"钢材","specification":"PL1233","placeOrigin":"本钢","remark":"村上春树",' \
                              '"goodsCategoryName":"三级盘螺"}'
-        self.data['_tk'] = self._tk
-        response = Request().post_request(url=self.config.url_test,data=self.data,verify=False)
+        self.data['_tk'] = login()
+        Request().post_request(url=self.config.url_test,data=self.data,verify=False)
 
 
 class WareHouse():
@@ -259,6 +262,4 @@ class PurchaseReceive():
 #     elif req_method == 'GET':
 #         self.req.get_request(self.conf.tester_test,self.data)
 
-
-login()
 

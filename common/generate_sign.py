@@ -34,7 +34,7 @@ def generate_sig(data):
     s += offset
     # print(s)
     _sig = jiamimd5(s)
-    log.info('_sig---------'+_sig)
+    # log.info('_sig---------'+_sig)
     data['_sig'] = _sig
     # print(data)
     return data
