@@ -24,10 +24,9 @@ def get_yamlpath(file_name,req_key):
 
 
 def parse():
-    path_ya = str(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))) + '\data\param'
+    # path_ya = str(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))) + '\data\param'
     parent_path = str(os.path.join(os.path.dirname(os.path.dirname(__file__)))) + '/data/param'
     print('parent_path:%s'%parent_path)
-    print('path:%s'%path_ya)
     pages = {}
     for root, dirs, files in os.walk(parent_path):
         for name in files:
