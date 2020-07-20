@@ -2,122 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e644f25-490a-46f3-965d-b83bb4d7dff0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/016386fa-9030-4d39-9c0b-f7b71e23ec9e-attachment.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/02609eb4-86ab-4252-bb3b-736fd2543c7b-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/05aae2b2-a3a2-4d3c-ba16-88f29007e634-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/061e3eb2-d98c-4cb4-99a8-d8eb702c0854-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/075aa088-3b7d-4211-b0ec-96b673eabb27-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/0cbbe564-0b78-448c-b9f5-9ada485b13f0-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/0f632439-bc20-449f-a3e6-52517a1acf71-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/1444e3da-eb47-49c9-86ef-2581a3bc5d04-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/1c337954-16cb-4c4f-876f-9e0c3d6b2d00-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/1e53d664-23bf-4a16-9f4d-7b46e73080db-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/1f718559-18ad-4406-83bd-945f8fcc02b9-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/1fed8bab-448d-4a13-a2bc-10704165b8e7-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/2c57fb83-3b05-4cb7-bc66-6facd26aac50-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/2dfaa1c0-ce79-482a-b225-bdd306af92bb-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/353e59fa-e52c-4588-8485-03dddb2240ff-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/3542fd05-4ed6-4ba9-8aaf-2eb4beada361-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/35584947-785e-4d91-b11a-e3e00426388f-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/36b8d81a-b7ea-49e4-bb34-dd27b4442de1-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/382d4399-4cec-4753-920d-75451c45a25a-result.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/3b87a5c3-ab75-4828-a631-c3d3b0ccec1a-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/3f44c2a6-18ee-4e0e-9d77-3f47460d7d6d-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/3f4b6df4-8ccd-43aa-8c95-679f7fc1a2f7-attachment.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/3f62f656-f2ed-49b7-845e-03d99e507c12-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/4483ebc1-2ced-4405-9c91-a6fd6cf2152e-attachment.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/4484c82a-347c-4172-9c51-8a0d6da7b828-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/44fdceed-5dd4-4016-8f4b-0daba318919f-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/46117130-9e55-42e7-bbef-734ae21ef71e-result.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/4861f920-d8cd-43f0-bc21-cbfffa6b85ef-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/49189dff-8145-4c7a-8a8c-d7e84a6cff0f-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/4a676cfd-e19a-4278-9907-70d2c7929047-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/4c1c459a-47ae-4b28-a017-4f94b0264d4a-attachment.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/502b2c4d-4416-41b3-8c9d-ca8e9f7e0e68-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/50325af6-438c-4eb2-92b5-f7f3ec0caa8a-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/5053cd85-e81a-48ad-8aef-7aa1d9a715ca-result.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/5227033a-8b5f-401d-bab9-08bb44c98e2c-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/560374a7-1420-4245-8cf6-14b24070379a-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/5b0ed5ae-c458-4531-b9e1-814932c02619-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/5e0feb6f-4f15-4bf1-ad70-d35e3a091c79-attachment.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/5f23b4ea-d928-44ab-ae9e-7f8649844c4d-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/630cb5c9-2b21-4c4b-ab5e-8f483024ad86-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/6442f60f-d188-4012-b7f2-4bfae7cd6752-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/6790dd3b-ddf4-41e1-abea-a35bb64f5296-attachment.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/6a2f318b-8025-47d3-affe-1474e4e7238b-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/6b3564ad-f577-4ddc-9476-b860d6060dd2-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/6bf5dcdb-9afb-46f0-879a-d2ce51cd1e3d-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/6c3e1e4d-ab35-4147-8838-3735d66d1d94-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/6e328241-cfe7-48b5-a585-01555f77f6e7-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/70348dbd-90e9-4c29-917d-668af0f1c042-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/71c83151-4d4c-4771-be93-ac74791f9c09-attachment.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/75e9c832-936d-44b4-8f8b-f80987e64173-attachment.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/76407662-b0ad-40a9-878e-c087301c8a76-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/7b93d685-2da8-4f70-a2d0-8e8d571ae54a-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/7c7f1fb6-e124-4aef-840a-b9c6d2794eee-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/7e9fdf94-3898-41f5-b46b-74b47845a9ff-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/81c1600d-d752-4701-b967-ca0c0a33aff3-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/845e3f5e-759e-4e52-bf57-9e8d83c48a25-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/847e268d-73a6-452a-8488-918016d338ae-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/8596cac2-9cdd-4ddb-9787-d72b57911fe9-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/8652e8c9-1f22-438c-a4b4-e792454b1de0-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/88b319da-08f7-40c3-a5a6-e697550a1fdd-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/89881c9b-e6df-4569-b398-dc313e409ed7-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/8ade8c7c-318f-4fd6-bcfa-3fb0822b1250-attachment.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/8d48410a-0654-494d-9ff5-829d3b87b99b-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/8fd4f5a3-aec9-480e-b91c-ffcfa18602f5-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/9012034c-0e4f-451e-954d-afdb807ed99c-result.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/935e098b-9abd-4bde-9744-a3676200edab-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/93e9326a-d68c-4b6a-9e57-60b031435239-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/9430cb3c-8b72-429d-9e45-aa464de44e91-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/95eb4203-9551-4d01-97b7-f3bf50c992a8-result.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/9932e668-2969-4dcb-8a19-43d9c7afeb94-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/9aae7655-7c38-40d8-bf94-dac404b0fe28-attachment.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/a321e3fa-8447-4287-a481-1643952eb48b-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/a5e39d0d-3979-4441-a347-7ffbe68c2fb9-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/a95ac533-931a-4353-8940-036c4ef787c2-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/aaa0be7c-0c68-4cbc-915d-ffcbea100b85-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/ab0e4290-b83d-4696-8afe-c1dc8fee696e-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/ab826ba6-08a4-49e7-a95d-13c032ea2e75-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/ac3cac1e-7133-4ef7-914e-e6d7eabdb40e-attachment.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/ae2622aa-a92d-494e-94e1-381fb7803dec-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/afde90ef-c7aa-4a08-b671-dfb3a3db883f-attachment.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/b137ae67-7250-4a36-a625-67cd3db9189f-result.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/b18f372e-4d9c-414c-a3c3-5c5e81ef2d59-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/b1f99c14-5d15-4f22-9f71-b03f99366669-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/b3fa9a13-1d32-4219-9883-3194529510a7-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/bbfd1ad4-b4aa-418a-a0b0-c73a2c990504-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/bcc4f405-ceb3-44db-bd88-96d2b4de85ea-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/c978ff10-f5b0-4752-a17e-7d8bdb49ad0d-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/cb8bf68a-4aff-4e49-b569-f6b41e06f7d1-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/ce6a423e-9ecc-4fb7-9c1d-25a8523aa3aa-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/d4cc6154-68fc-43d2-ba59-4794aa0895c5-result.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/d4ee2a22-a666-47f2-b9bb-9dd2ef440a7a-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/d57da537-9a0c-49a2-8a00-c89bd3ea6af2-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/d7e0492c-1641-4a73-b96f-2877332f7f8e-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/d95d79a8-41a1-46d8-bf4c-09dc16e6e43b-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/d97ebf6c-b2f3-49d8-b1a9-4afe1e946096-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/da2c34a7-0c00-4638-8195-356bd0979185-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/dc8fdcc7-0bea-492c-88f5-cc06fee8dc1c-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/df015a25-2af4-448f-9d67-bf70a6901a4d-attachment.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/e01121e3-ae27-495b-a753-e65cd7a88163-attachment.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/e1218cf3-96d1-4321-b064-313be6a5f115-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/e175699a-fcfb-46bc-9865-3c6156aeccc9-attachment.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/e32fab8a-e3a2-4fcf-ae17-1b6388b4848a-result.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/e3da9eff-f443-4f39-b568-a88242d96ee5-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/e5a2c7d4-d1a6-4855-bdb1-b2b51e080d1c-attachment.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/e6422f24-e46d-4a8e-9355-e88897aaf62d-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/e82e8d47-2495-44ad-b773-c51897c01dd2-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/f0f8cbf7-3260-4743-a2a6-108d9ba48449-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/f159473c-63b0-40db-ab58-2f8844c848af-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/f1cf1922-0ecc-403a-8006-e5ded7416e7c-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/f2d03896-3f8a-4d9f-bfd0-d0009e1c455e-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/f6edb7f9-a757-413b-aa6f-ed117c5ce2b6-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/f7e3fc2c-dd74-497d-8b97-d67ed920af6f-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/f98ab346-5b02-433d-ae6b-0a4fd41d17ac-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/fb2b4caa-5b49-4a18-b01e-222c664105f1-container.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/allure_raw/fc5decd8-3bbb-4271-98c5-3a1f8f2f92e8-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Dockerfile" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/read_yml.py" afterPath="$PROJECT_DIR$/common/read_yml.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loginfo/log.log" afterPath="$PROJECT_DIR$/loginfo/log.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <ignored path="Pytest_Automation.iws" />
@@ -134,7 +22,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Pytest_Automation$py_test_in_TestQueryInventory_and_test_queryByItemBatchNo.coverage" NAME="py.test in TestQueryInventory and test_queryByItemBatchNo Coverage Results" MODIFIED="1594881023225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Pytest_Automation$common_function.coverage" NAME="common_function Coverage Results" MODIFIED="1594968998393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/Pytest_Automation$py_test_in_TestQueryInventory_and_test_queryByItemBatchNo__1_.coverage" NAME="py.test in TestQueryInventory and test_queryByItemBatchNo (1) Coverage Results" MODIFIED="1594969481839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Pytest_Automation$py_test_in_TestQueryInventory_and_test_queryByItemBatchNo__1_.coverage" NAME="py.test in TestQueryInventory and test_queryByItemBatchNo (1) Coverage Results" MODIFIED="1595246140379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Pytest_Automation$read_yml.coverage" NAME="read_yml Coverage Results" MODIFIED="1595246104263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/Pytest_Automation$py_test_in_TestOurCompany_and_test_addcompany.coverage" NAME="py.test in TestOurCompany and test_addcompany Coverage Results" MODIFIED="1594969123477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Pytest_Automation$py_test_in_TestQueryInventory.coverage" NAME="py.test in TestQueryInventory Coverage Results" MODIFIED="1594881936318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Pytest_Automation$py_test_in_TestCompany.coverage" NAME="py.test in TestCompany Coverage Results" MODIFIED="1594882205336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -152,20 +41,10 @@
         <entry file="file://$PROJECT_DIR$/cases/setting/test_ourcompany.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -174,17 +53,17 @@
         <entry file="file://$PROJECT_DIR$/pytest.ini">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56687117">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -206,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/data/params.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -236,13 +115,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_queryinventory.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_queryinventory.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cases/inventory/test_queryinventory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.5313059">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read_yml.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/read_yml.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -252,7 +143,7 @@
         <entry file="file://$PROJECT_DIR$/loginfo/log.log">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="185" column="37" selection-start-line="185" selection-start-column="37" selection-end-line="185" selection-end-column="37" />
+              <caret line="343" column="37" selection-start-line="343" selection-start-column="37" selection-end-line="343" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -282,6 +173,7 @@
         <option value="$PROJECT_DIR$/cases/setting/test_ourcompany.py" />
         <option value="$PROJECT_DIR$/pytest.ini" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/common/read_yml.py" />
       </list>
     </option>
   </component>
@@ -350,6 +242,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pytest_Automation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pytest_Automation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="param" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pytest_Automation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pytest_Automation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pytest_Automation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pytest_Automation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="cases" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -369,6 +307,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cases" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inventory" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -437,31 +379,6 @@
       <option name="USE_KEYWORD" value="true" />
       <method />
     </configuration>
-    <configuration default="false" name="py.test in TestQueryInventory" type="tests" factoryName="py.test" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Pytest_Automation" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/cases/inventory/test_queryinventory.py" />
-      <option name="keywords" value="TestQueryInventory" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="true" />
-      <method />
-    </configuration>
     <configuration default="false" name="common_function" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -503,6 +420,24 @@
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
       <option name="USE_KEYWORD" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="read_yml" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Pytest_Automation" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/read_yml.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -701,17 +636,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in TestQueryInventory and test_queryByItemBatchNo (1)" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in TestCompany" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in TestQueryInventory" />
-      <item index="3" class="java.lang.String" itemvalue="Python.common_function" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in TestOurCompany and test_addcompany" />
+      <item index="2" class="java.lang.String" itemvalue="Python.common_function" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in TestOurCompany and test_addcompany" />
+      <item index="4" class="java.lang.String" itemvalue="Python.read_yml" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in TestQueryInventory and test_queryByItemBatchNo (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in TestOurCompany and test_addcompany" />
-        <item index="2" class="java.lang.String" itemvalue="Python.common_function" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in TestCompany" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in TestQueryInventory" />
+        <item index="1" class="java.lang.String" itemvalue="Python.read_yml" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in TestOurCompany and test_addcompany" />
+        <item index="3" class="java.lang.String" itemvalue="Python.common_function" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in TestCompany" />
       </list>
     </recent_temporary>
   </component>
@@ -726,12 +661,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_TestOurCompany_and_test_addcompany - 2020.07.17 at 14h 58m 10s.xml">
-      <configuration name="py.test in TestOurCompany and test_addcompany" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_TestOurCompany_and_test_addcompany - 2020.07.17 at 14h 58m 44s.xml">
-      <configuration name="py.test in TestOurCompany and test_addcompany" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_TestQueryInventory_and_test_queryByItemBatchNo_(1) - 2020.07.17 at 14h 31m 52s.xml">
       <configuration name="py.test in TestQueryInventory and test_queryByItemBatchNo (1)" configurationId="tests" />
     </history-entry>
@@ -756,36 +685,44 @@
     <history-entry file="py_test_in_TestQueryInventory_and_test_queryByItemBatchNo_(1) - 2020.07.17 at 15h 04m 44s.xml">
       <configuration name="py.test in TestQueryInventory and test_queryByItemBatchNo (1)" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_TestQueryInventory_and_test_queryByItemBatchNo_(1) - 2020.07.20 at 18h 11m 38s.xml">
+      <configuration name="py.test in TestQueryInventory and test_queryByItemBatchNo (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_TestQueryInventory_and_test_queryByItemBatchNo_(1) - 2020.07.20 at 19h 55m 43s.xml">
+      <configuration name="py.test in TestQueryInventory and test_queryByItemBatchNo (1)" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="1" />
-    <editor active="true" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2661638" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2661638" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30082256" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39952996" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.426557" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39952996" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -796,14 +733,6 @@
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -884,7 +813,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="102" column="25" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="25" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="false" />
             <marker date="1594969477173" expanded="true" signature="1530:1585" placeholder="delete from " />
             <marker date="1594969477173" expanded="true" signature="1704:1772" placeholder="select agree... purchase_agreement" />
             <marker date="1594969477173" expanded="true" signature="2519:2570" placeholder="delete from " />
@@ -995,14 +924,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conf/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1060,7 +981,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="102" column="25" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="25" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="false" />
             <marker date="1594969477173" expanded="true" signature="1530:1585" placeholder="delete from " />
             <marker date="1594969477173" expanded="true" signature="1704:1772" placeholder="select agree... purchase_agreement" />
             <marker date="1594969477173" expanded="true" signature="2519:2570" placeholder="delete from " />
@@ -1088,26 +1009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/params.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cases/inventory/test_queryinventory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conf/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1121,7 +1022,7 @@
     <entry file="file://$PROJECT_DIR$/loginfo/log.log">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="185" column="37" selection-start-line="185" selection-start-column="37" selection-end-line="185" selection-end-column="37" />
+          <caret line="343" column="37" selection-start-line="343" selection-start-column="37" selection-end-line="343" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1129,34 +1030,56 @@
     <entry file="file://$PROJECT_DIR$/cases/setting/test_ourcompany.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pytest.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56687117">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/params.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/read_yml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cases/inventory/test_queryinventory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5313059">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
