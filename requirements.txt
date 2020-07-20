@@ -12,7 +12,7 @@ Click==7.0
 colorama==0.4.3
 colorlog==4.1.0
 contextvars==2.4
-cryptography==2.9.2
+cryptography
 dataclasses==0.7
 filetype==1.0.7
 fixedint==0.1.5
