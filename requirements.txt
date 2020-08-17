@@ -4,7 +4,7 @@ allure-python-commons==2.8.6
 pytest-rerunfailures==5.0
 configparser==3.5.0
 PyYAML==5.2
-requests==2.19.1
+requests==2.20.0
 PyMySQL==0.9.3
 
 
