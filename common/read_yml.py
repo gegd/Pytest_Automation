@@ -1,6 +1,6 @@
 import os
 import yaml
-
+import json
 
 def read_yaml_file(yaml_path):
     if not os.path.isfile(yaml_path):
@@ -26,7 +26,6 @@ def get_yamlpath(file_name,req_key):
 def parse():
     # path_ya = str(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))) + '\data\param'
     parent_path = str(os.path.join(os.path.dirname(os.path.dirname(__file__)))) + '/data/param'
-    print('parent_path:%s'%parent_path)
     pages = {}
     for root, dirs, files in os.walk(parent_path):
         for name in files:
@@ -53,8 +52,15 @@ class GetPages:
 
         return _page_list
 
+
+def get_data():
+    purchase_orderno = '123434'
+    select_sql = "select id from purchase_order_detail where purchase_order_no = " + "'"+ purchase_orderno + "'"
+    print(select_sql)
+
 if __name__ == '__main__':
     lists = GetPages.get_page_list()
+    get_data()
     # print(lists)
     # real_path = os.path.realpath(__file__)
     # yaml_path = os.path.join(os.path.dirname(real_path), 'our_company.yml')

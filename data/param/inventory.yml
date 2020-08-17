@@ -21,4 +21,4 @@ Inventory:
                 "createStartTime":"",
                 "createEndTime":""}',
                 '500','800012609','3701','1000','saasmanager.service.inventoryPageQuery',
-                {"name":"purchaseOrderNo",}]
+                {"outType":1}]

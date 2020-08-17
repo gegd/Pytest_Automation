@@ -9,13 +9,13 @@ import pymysql
 
 
 class DbConnect():
-    def __init__(self, database=''):
+    def __init__(self, host='10.0.34.104',user='ua_online_saas',password='0WhVmckXIn4qgPQ5S3',database=''):
         # self.db_conf = db_conf
         # 打开数据库连接
         self.db = pymysql.connect(
-                                  host='10.0.34.104',
-                                  user='ua_online_saas',
-                                  password='0WhVmckXIn4qgPQ5S3',
+                                  host=host,
+                                  user=user,
+                                  password=password,
                                   port=3306,
                                   database=database,
                                   cursorclass=pymysql.cursors.DictCursor,

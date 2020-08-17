@@ -16,6 +16,7 @@ class TestQueryInventory:
 
     @allure.story('通过采购订单号查询')
     @allure.title('采购订单收货完成后，根据采购订单号查询是否入批次库存')
+    @pytest.mark.inventory
     @pytest.mark.parametrize('_sm,_ft,param,_aid,_uid,_tenantid,_domid,_mt,expect', data)
     def test_queryByItemBatchNo(self,login_fix,purchasereceive_fix,_sm,_ft,param,_aid,_uid,_tenantid,_domid,_mt,expect):
         """采购订单收货完成后，根据采购订单号查询是否入批次库存"""
@@ -27,6 +28,8 @@ class TestQueryInventory:
         res = Request().get_request(conf.url_test,req_data)
         inventoryItems = res['body']['content'][0]['inventoryItems']
         for i in range(len(inventoryItems)):
-            assert inventoryItems[i][expect['name']] == purchasereceive_fix
+            assert inventoryItems[i]['purchaseOrderNo'] == purchasereceive_fix
+            assert inventoryItems[i]['outType'] == expect['outType']
+
 
 

@@ -2,11 +2,15 @@ from urllib3.exceptions import InsecureRequestWarning
 import requests
 from common.Request import Request
 from conf.config import Config
-import json
+import json,datetime,time
 from common.generate_sign import timestamp,generate_sig
 from common import Log
 
 log = Log.MyLog()
+now_time = datetime.datetime.now().strftime('%Y-%m-%d')
+
+new_time = int(time.mktime(datetime.datetime.now().timetuple())) #当前时间
+
 
 
 def login():
@@ -119,16 +123,15 @@ class PurchaseAgreement():
 
     def add_purchase(self):
         self.data['_mt'] = 'saasmanager.service.savePurchaseAgreement'
-        self.data['param'] = '{"agreementNo":""' \
-               ',"agreementDate":"2020-07-09",' \
-               '"outAgreementNo":"TEST12345678","ourCompanyId":141,"ourCompanyName":"上海赛可出行科技服务有限公司",' \
-               '"supplierCompanyId":224,"supplierCompanyName":"上海赛可出行科技服务有限公司","businessMode":1,' \
-               '"agreementMonth":"2020-07","agreementAmount":10000000,"agreementMarginRatio":0.1,' \
-               '"agreementMarginAmount":1000000,"agreementWeight":10000,"paidAmount":"",' \
-               '"deliveryType":"1","contractAddress":"江苏","lastDeliveryDate":"2020-07-16","paymentModeId":"897",' \
-               '"paymentModeName":"银行转账","salesMan":"zg_182616hJ0","agreementClause":"测试"' \
-               ',"remark":"测试",' \
-               '"agreementBeginDate":"2020-07-09","agreementEndDate":"2020-08-12"}'
+        param = {"agreementNo":"","agreementDate":now_time,"outAgreementNo":"TEST12345678","ourCompanyId":270,
+             "ourCompanyName":"上海赛可出行科技服务有限公司","supplierCompanyId":224,
+             "supplierCompanyName":"上海赛可出行科技服务有限公司","businessMode":1,
+             "agreementMonth":"2020-07","agreementAmount":10000000,"agreementMarginRatio":0.1,
+             "agreementMarginAmount":1000000,"agreementWeight":10000,"paidAmount":"","deliveryType":"1",
+             "contractAddress":"江苏","lastDeliveryDate":"2020-07-16","paymentModeId":"897",
+             "paymentModeName":"银行转账","salesMan":"zg_182616hJ0","agreementClause":"测试","remark":"测试",
+             "agreementBeginDate":"2020-07-09","agreementEndDate":"2020-08-12"}
+        self.data['param'] = json.dumps(param,ensure_ascii=False)
         self.data['_tk'] = login()
         Request().post_request(url=self.config.url_test,data=self.data,verify=False)
 
@@ -196,17 +199,18 @@ class PurchaseOrder():
         self.data['_mt'] = 'saasmanager.service.addPurchaseOrder'
         agreementNo = pucharseAgreement_fix
         print(agreementNo)
-        param = {"canDeleteDetail":True,"purchaseOrderBaseInfo":{"id":"","purchaseNo":"",
-                              "purchaseDate":"2020-07-10","supplierCompanyId":224,"supplierCompanyName":"上海赛可出行科技服务有限公司",
-                              "ourCompanyId":141,"ourCompanyName":"上海赛可出行科技服务有限公司","agreementId":8506,"agreementNo": agreementNo,
+        param = {"canDeleteDetail":True,"purchaseOrderBaseInfo":{"id":"","purchaseNo":"","purchaseDate":now_time,
+                                                                 "supplierCompanyId":224,"supplierCompanyName":"上海赛可出行科技服务有限公司",
+                                                                 "ourCompanyId":270,"ourCompanyName":"上海赛可出行科技服务有限公司","agreementId":8506,"agreementNo": agreementNo,
                               "businessMode":1,"settlementMode":1,"outOrderNo":"wbdh123444","deliveryType":1,"lastDeliveryDate":"2020-07-08",
                               "salesMan":"zg_182616hJ0","type":"","remark":"test","directEntryWarehouse":0,"warehouseName":""},
                               "purchaseOrderPaymentInfo":{"expectedPaymentDate":"","paymentModeName":""},"purchaseOrderOtherInfo":{"backToBack":0,
                                "sourceOrderNo":""},"purchaseOrderDetailList":[{"itemId":103938,"itemTitle":"三级盘螺","material":"钢材",
-                               "specification":"PL1233","steelMill":"本钢","itemUnitWay":1,"purchaseQuantity":"2","purchaseWeight":40000,"weightUnit":1,
-                               "inclusiveTaxPrice":305575,"inclusiveTaxAmount":1222300,"excludeTaxAmount":1081681,"taxRate":0.13,"settlementQuantity":0,
+                              "specification":"PL1233","steelMill":"本钢","itemUnitWay":1,"purchaseQuantity":"2","purchaseWeight":40000,"weightUnit":1,
+                              "inclusiveTaxPrice":305575,"inclusiveTaxAmount":1222300,"excludeTaxAmount":1081681,"taxRate":0.13,"settlementQuantity":0,
                                "settlementWeight":0,"settlementPrice":0,"settlementAmount":0,"packageNo":"KBH23457","singleWeight":20000}]}
-        self.data['orderInfo'] = json.dumps(param)
+
+        self.data['orderInfo'] = json.dumps(param,ensure_ascii=False)
         self.data['_tk'] = self._tk
         response = Request().post_request(url=self.config.url_test,data=self.data,verify=False)
         return response['body']['content'][0]
@@ -225,17 +229,17 @@ class PurchaseReceive():
             '_domid':'1000'
         }
 
-    def savePurchaseReceive(self,purchaseorderadd_fix):
+    def savePurchaseReceive(self,purchase_info):
         self.data['_mt'] = 'saasmanager.service.savePurchaseReceiveOrder'
-        param = {"receiveOrderNo":"","purchaseOrderId":purchaseorderadd_fix['orderId'],"purchaseOrderNo":purchaseorderadd_fix['orderNo'],
-                              "warehouseId":175,"warehouseName":"川沙市场库","receiveDate":1594310400000,
-                              "ourCompanyId":141,"ourCompanyName":"上海赛可出行科技服务有限公司","supplierCompanyId":224,
+        param = {"receiveOrderNo":"","purchaseOrderId":purchase_info[0]['orderId'],"purchaseOrderNo":purchase_info[0]['orderNo'],
+                              "warehouseId":175,"warehouseName":"川沙市场库","receiveDate":new_time,
+                              "ourCompanyId":270,"ourCompanyName":"上海赛可出行科技服务有限公司","supplierCompanyId":224,
                               "supplierCompanyName":"上海赛可出行科技服务有限公司","transportMode":1,"transportNo":"",
                               "receiveMan":"zg_182616hJ0","remark":"","backToBack":0,"directEntryWarehouse":0,
-                              "details":[{"itemId":103938,"purchaseOrderDetailId":3235,"itemTitle":"三级盘螺",
+                              "details":[{"itemId":103938,"purchaseOrderDetailId":purchase_info[1][0]['id'],"itemTitle":"三级盘螺",
                               "material":"钢材","specification":"PL1233","steelMill":"本钢","itemUnitWay":1,
                               "receiveQuantity":2,"receiveWeight":40000,"weightUnit":1,"singleWeight":20000,"taxRate":0.13,"batchNo":"","packageNo":"KBH23457"}]}
-        self.data['param'] = json.dumps(param)
+        self.data['param'] = json.dumps(param,ensure_ascii=False)
         self.data['_tk'] = self._tk
         response = Request().post_request(url=self.config.url_test,data=self.data,verify=False)
         return response['body']['content'][0]['purchaseReceiveOrder']['purchaseOrderNo']

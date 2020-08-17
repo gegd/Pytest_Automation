@@ -46,7 +46,7 @@ def pucharseAgreement_fix(ourCompany_fix,contactCompany_fix):
     #新增采购订单前，先新增本方公司,然后新增往来单位和采购协议
     #连接数据库，删除租户3701所有的采购协议
     log.info("新增采购订单前，先新增采购协议")
-    connect = DbConnect('online_saas')
+    connect = DbConnect(host='10.0.34.104',user='ua_online_saas',password='0WhVmckXIn4qgPQ5S3',database='online_saas')
     delete_sql = "delete from purchase_agreement where tenant_id = '3701'"
     connect.execute(delete_sql)
     log.info("开始新增采购协议...")
@@ -78,10 +78,9 @@ def createwarehouse_fix():
 #新增采购订单
 @pytest.fixture(scope='module')
 def purchaseorderadd_fix(addgoods_fix,createwarehouse_fix,pucharseAgreement_fix):
-    #先连接数据库，删除脏数据采购订单
-    #连接数据库，删除租户3701所有的采购订单
+    #先连接数据库，删除脏数据（租户3701）采购订单
     log.info("开始新增采购订单...")
-    connect = DbConnect('online_saas')
+    connect = DbConnect(host='10.0.34.104',user='ua_online_saas',password='0WhVmckXIn4qgPQ5S3',database='online_saas')
     delete_sql = "delete from purchase_order where tenant_id = '3701'"
     connect.execute(delete_sql)
     res = PurchaseOrder().add_order(pucharseAgreement_fix)
@@ -94,15 +93,31 @@ def purchaseorderadd_fix(addgoods_fix,createwarehouse_fix,pucharseAgreement_fix)
 def purchasereceive_fix(purchaseorderadd_fix):
     #收货前先删除批次库存数据和库存流水
     log.info("采购收货前先删除批次库存数据和库存流水")
-    connect = DbConnect('online_saas')
+    connect = DbConnect(host='10.0.34.104',user='ua_online_saas',password='0WhVmckXIn4qgPQ5S3',database='online_saas')
     delete_inventory = "delete from inventory where tenant_id = '3701'"
     delete_inventory_flow = "delete from inventory_flow where tenant_id = '3701'"
     connect.execute(delete_inventory)
     connect.execute(delete_inventory_flow)
-    connect.close()
+
     log.info("数据清理完毕...")
     log.info("开始收货，进入仓库中...")
-    purchase_orderno = PurchaseReceive().savePurchaseReceive(purchaseorderadd_fix)
-
+    # 根据采购订单号，从采购订单明细表中获取订单明细id
+    select_sql = "select id from purchase_order_detail where purchase_order_no = " + "'"+ purchaseorderadd_fix['orderNo'] + "'"
+    purchase_detail_id = connect.select(select_sql)
+    purchase_info=[]
+    purchase_info.append(purchaseorderadd_fix)
+    purchase_info.append(purchase_detail_id)
+    purchase_orderno = PurchaseReceive().savePurchaseReceive(purchase_info)
+    connect.close()
     return purchase_orderno
 
+
+# 新增本方公司前先删除数据
+# @pytest.fixture()
+# def del_ourcompany_fix():
+#     log.info("新增本方公司之前先删除数据")
+#     print('========开始删除本方公司======')
+#     connect = DbConnect(host='10.0.34.104',user='ua_online_tenant',password='X3Ohq1s9i2aNJgWxu8',database='online_tenant')
+#     delete_company = "delete from our_company where tenant_id = '3701'"
+#     connect.execute(delete_company)
+#     connect.close()

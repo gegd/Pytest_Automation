@@ -64,7 +64,6 @@ class Request():
         :return:
 
         """
-
         if not url.startswith('https://'):
             url = '%s%s' % ('https://', url)
             print(url)
@@ -77,8 +76,6 @@ class Request():
                 new_data = generate_sig(data)
                 log.info("请求参数：%s"%new_data)
                 response = requests.post(url=url, params=new_data,verify=False)
-                # log.info("响应数据：%s"%response)
-
         except requests.RequestException as e:
             print('%s%s' % ('RequestException url: ', url))
             print(e)

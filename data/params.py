@@ -15,12 +15,9 @@ def get_parameter(name):
 
 
 class OurCompany:
-
-    def get_yaml_data(self,name):
+    def get_yaml_data(self):
         #读取yaml原始测试数据
-        params = get_parameter(name)
-        # print('data:%s'%params)
-
+        params = get_parameter('CompanyAdd')
         return params
 
     def get_req_data(self,_sm,_ft,ourCompanySaveParam,_aid,_uid,_tenantid,_domid,_mt,token):

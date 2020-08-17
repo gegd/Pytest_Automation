@@ -15,18 +15,6 @@ CompanyAdd:
                 {"defaultTip": "本方公司抬头数量已到最大限制，如需新增，请联系管理员或胖猫云ERP客服！", "code": 96012020}]
 
 
-      - ['md5','json','{
-                "shortName":"上海赛可出行科技服务1",
-                "invoiceName":"上海赛可出行科技服务1",
-                "status":1,
-                "companyPostalAddressList":[],
-                "companyFundsAccountList":[],
-                "name":"上海赛可出行科技服务1",
-                "remark":"autotest"
-                }','500','800012609','3701','1000','tenant.service.saveOurCompany',
-                {"defaultTip": "本方公司抬头数量已到最大限制，如需新增，请联系管理员或胖猫云ERP客服！", "code": 96012020}]
-
-
 
 
 CompanyQuery:
